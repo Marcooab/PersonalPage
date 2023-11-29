@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>[Marco Ricardo] | Developer</title>
+    <meta name="keywords" content="[marcooab], [marcoricardo], javascript, reactjs, html, css" />
+    <meta name="description" content="[Marco Ricardo] | Brazilian frontend developer living in Portugal. ReactDeveloper" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script defer type="module" src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main"> Marco </span>
+          <br />
+          I'm a FrontEnd Developer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img id="portrait"
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/myself.jpeg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p id="texto-maquina" class="about-wrapper__info-text"></p>
+              <div class="btn_ct">
+                <span class="d-flex mt-3">
+                  <a rel="noreferrer" href="#projects" class="back-to-top cta-btn cta-btn--resume">
+                    Projects
+                  </a>
+                </span>
+                <span class="d-flex mt-3">
+                  <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/cv_Marco.pdf">
+                    View Resume
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- PROJECT 1  -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">Portfolio Project</h3>
+                  <img class="ic" src="./assets/html.png" alt="html">
+                  <img class="ic" src="./assets/css.png" alt="css">
+                  <img class="ic" src="./assets/js.png" alt="javascript">
+                <div>
+                  <p class="mb-4">
+                    Personal Portfolio using HTML5 for structure and pure CSS3 for styling. Use of CSS animations and FlexBox. Vanilla JavaScripts in events and functions.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcooab.github.io/ownPortfolio/"
+                >
+                  Try it
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Marcooab/personal_portfolio"
+                >
+                  Repo
+                  <img src="./assets/github.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://marcooab.github.io/ownPortfolio/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/port.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Gallery Project</h3>
+                <img class="ic" src="./assets/html.png" alt="html">
+                <img class="ic" src="./assets/css.png" alt="css">
+                <img class="ic" src="./assets/js.png" alt="javascript">
+                <img class="ic" src="./assets/sass.png" alt="sass">
+                <div>
+                  <p class="mb-4">
+                    Simple photo gallery using HTML5 and CSS3 with animations and hovers. Exploring colors concepts and UX/UI design.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://marcooab.github.io/photo_gallery/#"
+                >
+                  Try it 
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Marcooab/photo_gallery"
+                >
+                  Repo 
+                  <img src="./assets/github.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://marcooab.github.io/photo_gallery/#" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/gallery.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Weather Project</h3>
+                <img class="ic" src="./assets/html.png" alt="html">
+                <img class="ic" src="./assets/css.png" alt="css">
+                <img class="ic" src="./assets/js.png" alt="javascript">
+                <img class="ic" src="./assets/postman.png" alt="postman">
+                <div>
+                  <p class="mb-4">
+                    Project that informs the weather and plus information about a desired city. Consuming Weather API.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  Try it
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Marcooab/open_weather"
+                >
+                  Repo
+                  <img src="./assets/github.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://marcooab.github.io/ownPortfolio/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/weather.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text"><img src="./assets/portugal.png" alt="portugal_flag"> +351 913 147 110</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:marcooab2012@hotmail.com"
+            >Email me</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/marcoaricardo/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/Marcooab" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          © 2023 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Marco Aurelio Ricardo</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
